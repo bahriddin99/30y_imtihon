@@ -1,0 +1,73 @@
+    #burger-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #burger {
+        width: 300px;
+        height: auto;
+        background-color: #FDB813;
+        border: 2px solid #333;
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .ingredient {
+        /* width: 100%; */
+        /* height: 20px; */
+        /* background-color: #333; */
+        position: absolute;
+        bottom: 10px;
+    }
+
+    #burger .top-bun {
+        border-radius: 10px 10px 0 0;
+    }
+
+    #burger .bottom-bun {
+        border-radius: 0 0 10px 10px;
+    }
+    
+    #burger .cheese {
+        background-image: url(burger-img/cheese.png);
+    }
+
+    #burger .meat {
+        
+        background-image: url(burger-img/meat.png);
+        height: 20px;
+    }
+
+    #burger .tomato {
+        
+        background-image: url(burger-img/tomato.png);
+        height: 20px;
+    }
+
+    #burger .pickle {
+        background-image: url(burger-img/pickle.png);
+        height: 10px;
+    }
+
+    #burger .onion {
+        background-image: url(burger-img/onion.png);
+        height: 20px;
+    }
+
+    #burger .salad {
+        background-image: url(burger-img/salad.png);
+    }
+
+    #ingredients {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 16px;
+        margin: 0 5px;
+    }
